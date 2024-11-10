@@ -53,6 +53,11 @@ trait BuildifyTrait
      */
     protected int $_refreshedCount = 0;
 
+    public function props(): array
+    {
+        return $this->_props;
+    }
+
     public function refreshedCount(): int
     {
         return $this->_refreshedCount;
