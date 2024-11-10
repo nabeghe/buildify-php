@@ -56,6 +56,8 @@ class Person extends \Nabeghe\Buildify\Buildify
     // You can use `BuildifyTrait` instead of extending the Buildify class.
     // You can also override class constants to enable or disable various features.
 
+    public const REFRESHABLE = true;
+
     public function defaults(): array
     {
         return [
