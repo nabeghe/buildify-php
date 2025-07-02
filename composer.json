@@ -1,28 +1,23 @@
 {
   "name": "nabeghe/buildify",
   "description": "Buildify improves PHP OOP with enhanced getter and setter functionality inspired by Builder and Fluent Patterns.",
-  "keywords": [
-    "getter", "setter", "get", "set", "fluent", "fluent interface",
-    "builder", "builder design pattern", "design pattern", "oop", "object", "class", "trait",
-    "library", "helper", "support"
-  ],
+  "keywords": ["builder", "builder design pattern", "class", "design pattern", "fluent", "fluent interface", "get", "getter", "helper", "library", "object", "oop", "setter", "set", "support", "trait"],
   "type": "library",
-  "version": "1.0.2",
   "homepage": "https://github.com/nabeghe/buildify-php",
   "license": "MIT",
+  "authors": [
+    {
+      "name": "Hadi Akbarzadeh",
+      "email": "elsiomcoder@gmail.com",
+      "homepage": "https://elatel.ir",
+      "role": "Developer"
+    }
+  ],
   "autoload": {
     "psr-4": {
       "Nabeghe\\Buildify\\": "src/"
     }
   },
-  "authors": [
-    {
-      "name": "Hadi Akbarzadeh",
-      "email": "hadicoder@gmail.com",
-      "homepage": "https://elatel.ir",
-      "role": "Developer"
-    }
-  ],
   "require": {
     "php": ">=7.4",
     "ext-json": "*"

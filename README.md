@@ -199,6 +199,4 @@ echo $person->isSingle ? "Single\n" : "Not Single\n";
 
 ## 📖 License
 
-Copyright (c) Hadi Akbarzadeh
-
 Licensed under the MIT license, see [LICENSE.md](LICENSE.md) for details.
